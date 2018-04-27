@@ -1,0 +1,10 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    *.pyc,
+    settings.py,
+    manage.py,
+    wsgi.py,
+    workatolist/*/*/migrations
+max-line-length = 79
